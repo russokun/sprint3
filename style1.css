@@ -95,6 +95,7 @@ h3{
 
 .parraf{
   height: 100px;
+  margin-top: 20px;
 }
 
 #abcd{
@@ -155,8 +156,8 @@ ul {
 
 #fonemail{
   position: absolute;
-  left: 22.4vw;
-  bottom: 30vh;
+  left: 23.4vw;
+  bottom: 16vh;
 }
 
 #cap{
@@ -174,9 +175,9 @@ th{
 }
 
 tfoot{
-  background-color: rgb(173, 152, 106);
+  background-color:antiquewhite;
 }
 
 tbody tr,td:hover{
-  background-color: rgb(173, 152, 106);
+  background-color: antiquewhite;
 }
