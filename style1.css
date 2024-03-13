@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px solid red;
+}
+
+body {
+  background-image: url(/assets/imgs/design1_image1.jpg);
+}
+
+header {
+  position: relative;
+  text-align: center;
+  height: 250px; 
+  background-image: url(/assets/imgs/design1_image1.jpg);
+}
+
+nav{
+  position: absolute;
+  top: 110px;
+  right: 0;
+  font-size: 20px;
+  
+}
+
+a{
+  border-radius: 12px;
+  background-color: #2B3499;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none; 
+}
+
+nav a {
+  text-decoration: none;
+  color: #FBF6F0;
+  text-decoration: underline;
+}
+
+nav a[href="#"] {
+  color: #FF9209;
+  font-weight: bold; 
+  text-decoration: none
+}
+
+h1 {
+  color: #FFD099; 
+  display: flex;
+  left: 3%;
+  font-size: 500%;
+  text-shadow: 
+    -2px -2px 0 #f89233,  
+    2px -2px 0 #f89233,
+    -2px 2px 0 #f89233,
+    2px 2px 0 #f89233;
+}
+
+h2 {text-align: center;
+  background-color: #2B3499;
+  color: #f89233;
+  padding: 30px;
+  font-size:40px;
+}
+
+.logo-container {
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  z-index: 1;
+}
+
+.logo-container img {
+  width: 200px;
+}
+
+.contenedor-cuerpo{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FFE2BC;
+  height: 100%;
+  width:100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.seccion{
+  width: 100%;
+}
+
+h3{
+  font-size: 150%;
+  color: #FF6C22;
+}
+
+.parraf{
+  height: 100px;
+}
+
+#abcd{
+  list-style: lower-alpha;
+}
+
+p>a{
+  font-size: 100%;
+  display: inline;
+  padding: 2px;
+}
+
+footer{
+  text-align: center;
+  background-color: #2B3499;
+  width: 100%;
+  display: flex;
+  bottom: 0;
+  position: absolute; 
+  flex-direction: column;
+}
+
+h4{
+  color: #FF9209;
+}
+
+.contenedor-imgs{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.fotos{
+  
+  
+  justify-content: space-between;
+  width: 300px;
+}
+
+ol {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0; 
+}
+
+#tabla{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #FFE2BC;
+  width: 75%;
+  height: 450px;
+}
+
+#contenedor-contenedor{
+  background-color: #FFD099;
+  display:inline;
+}
+
+#fonemail{
+  position: absolute;
+  left: 22.4vw;
+  bottom: 30vh;
+}
+
+table,th,tr,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+th{
+  background-color: rgb(160, 64, 96);
+}
+
+tfoot{
+  background-color: rgb(204, 155, 48);
+}
+
+tbody tr,td:hover{
+  background-color: rgb(204, 155, 48);
+}
